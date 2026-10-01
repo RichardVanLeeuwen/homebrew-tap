@@ -1,25 +1,25 @@
 class Forestry < Formula
   desc "The forestry application"
   homepage "https://github.com/RichardVanLeeuwen/forestry"
-  version "0.0.1"
+  version "0.0.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/RichardVanLeeuwen/forestry/releases/download/v0.0.1/forestry-aarch64-apple-darwin.tar.xz"
-      sha256 "c73eadbd6c8eb93565faa6b18ac1c82c9a2e7d5a9db83a1ea7119e95356b4c0d"
+      url "https://github.com/RichardVanLeeuwen/forestry/releases/download/v0.0.2/forestry-aarch64-apple-darwin.tar.xz"
+      sha256 "9f7d6a10ca0766ea658aad24be9515ef3f468bb66d69201d652e832456b97734"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/RichardVanLeeuwen/forestry/releases/download/v0.0.1/forestry-x86_64-apple-darwin.tar.xz"
-      sha256 "42c45194376078f61573dcd04add7e55a7c19d94bf0681f72765a56636985cac"
+      url "https://github.com/RichardVanLeeuwen/forestry/releases/download/v0.0.2/forestry-x86_64-apple-darwin.tar.xz"
+      sha256 "2c3a0d85e4d1f600fada341f4ae6b254799b93ae51cb456497fc15abf9e20023"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/RichardVanLeeuwen/forestry/releases/download/v0.0.1/forestry-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b361033f447216f5e240671276c41bd3a5a1c31de9088041057365ccc781ea64"
+      url "https://github.com/RichardVanLeeuwen/forestry/releases/download/v0.0.2/forestry-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "dd2db213f17725e0b09b31d1a9240a0b6027cc75cf9d97aee8e64f849fb4d694"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/RichardVanLeeuwen/forestry/releases/download/v0.0.1/forestry-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7b8f796c636b13be5a6dd0b51e82a7604e4fa9f789c69e2ba31ccbbe572994f5"
+      url "https://github.com/RichardVanLeeuwen/forestry/releases/download/v0.0.2/forestry-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3427426b05766b2357b8c701fce28757453c12cdff1802b58eaa8f79699866c0"
     end
   end
 
